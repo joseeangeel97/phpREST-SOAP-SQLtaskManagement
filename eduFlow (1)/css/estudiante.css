@@ -1,0 +1,113 @@
+ul {
+  list-style: none;
+}
+
+h3 {
+  text-align: center;
+  height: 2rem;
+  margin-bottom: -8rem;
+}
+#saludo {
+  align-content: center;
+  text-align: center;
+
+  background-color: rgb(15, 208, 86);
+  margin-top: 1%;
+  height: 13dvh;
+  width: 30dvw;
+  margin-left: auto;
+  margin-right: 1%;
+  font-size: 1.5rem;
+  border-radius: 5%;
+  border: 0.5rem rgb(169, 208, 15) solid;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  top: -10dvh;
+  z-index: 2;
+}
+
+#hora {
+  font-size: 1rem;
+  margin-bottom: 1%;
+}
+
+#encuadre {
+  align-content: center;
+  text-align: center;
+  height: 55dvh;
+  width: 40dvw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -11.5rem;
+}
+
+#bloque {
+  height: 40%;
+  background-color: aliceblue;
+  border-radius: 1rem 1rem 1rem 1rem;
+  border-bottom: 0.5rem rgb(169, 208, 15) solid;
+  margin-bottom: 1.5rem;
+}
+
+#bloque > h4 {
+  text-align: left;
+  padding-left: 2rem;
+  background-color: rgb(15, 208, 86);
+  border-top: 0.5rem rgb(169, 208, 15) solid;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+#bloque > article > p {
+  margin-left: -20rem;
+  margin-bottom: -0.5rem;
+}
+
+#bloque > article > ul > li {
+  padding-bottom: 0.5rem;
+  margin-left: -10rem;
+}
+
+#bloque2 {
+  height: 40%;
+  background-color: aliceblue;
+  border-radius: 1rem 1rem 1rem 1rem;
+  border-bottom: 0.5rem rgb(169, 208, 15) solid;
+  margin-bottom: 1rem;
+}
+
+#bloque2 > h4 {
+  text-align: left;
+  padding-left: 2rem;
+  background-color: rgb(15, 208, 86);
+  border-top: 0.5rem rgb(169, 208, 15) solid;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+#bloque2 > article > p {
+  margin-left: -20rem;
+  margin-bottom: -0.5rem;
+}
+
+#bloque2 > article > ul > li {
+  padding-bottom: 0.5rem;
+  margin-left: -10rem;
+}
+
+button {
+  position: relative;
+  left: 18rem;
+  bottom: 0.5rem;
+  background-color: rgb(201, 234, 12);
+  border-radius: 10px;
+  transition: background-color 1s, box-shadow 1s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  z-index: 0;
+}
+
+button:hover {
+  background-color: rgb(255, 255, 0);
+  cursor: pointer;
+}

@@ -1,0 +1,425 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(6, 238, 149);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+h1 {
+  color: crimson;
+  background-color: lightgreen;
+  text-align: center;
+  align-content: center;
+  font-size: 4rem;
+  height: 15vh;
+  margin-top: 0px;
+  position: sticky;
+  top: 0px;
+  letter-spacing: 1.5rem;
+  z-index: 100;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  color: crimson;
+  background-color: lightgreen;
+  text-align: center;
+  align-content: center;
+  font-size: 2rem;
+  padding: 1.5rem 2rem;
+  margin: 2rem auto;
+  letter-spacing: 0.5rem;
+  border-radius: 3rem;
+  display: inline-block;
+  width: auto;
+  min-width: 30%;
+}
+
+h3 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Saludo del profesor */
+#saludo {
+  align-content: center;
+  text-align: center;
+  z-index: 150;
+  background-color: rgb(15, 208, 86);
+  margin-top: 1%;
+  min-height: 10vh;
+  width: 30vw;
+  padding: 1.5rem;
+  margin-left: auto;
+  margin-right: 1%;
+  font-size: 1.3rem;
+  border-radius: 2rem;
+  border: 0.5rem rgb(169, 208, 15) solid;
+  display: block;
+  position: sticky;
+  top: 10vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#hora {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Contenedor principal */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding-bottom: 3rem;
+}
+
+/* Panel de opciones principal */
+#panel {
+  align-content: center;
+  text-align: center;
+  background-color: rgb(15, 208, 86);
+  margin: 3rem auto;
+  min-height: 30vh;
+  padding: 2rem;
+  width: 80%;
+  font-size: 2rem;
+  border-radius: 3rem;
+  border: 0.5rem rgb(169, 208, 15) solid;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.botones-grupo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.boton-principal {
+  height: 8rem;
+  width: 18rem;
+  font-size: 1.5rem;
+  background-color: rgb(201, 234, 12);
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: #333;
+}
+
+.boton-saludo {
+  height: 2rem;
+  width: 8rem;
+  font-size: 1.5rem;
+  background-color: rgb(201, 234, 12);
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: #333;
+  margin-top: 1rem;
+}
+.boton-saludo:hover {
+  background-color: rgb(255, 255, 0);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+
+.boton-saludo:active {
+  transform: translateY(0);
+}
+
+.boton-principal:hover {
+  background-color: rgb(255, 255, 0);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+
+.boton-principal:active {
+  transform: translateY(0);
+}
+
+/* Formularios */
+.formulario {
+  background-color: rgb(15, 208, 86);
+  border: 0.5rem rgb(169, 208, 15) solid;
+  border-radius: 2rem;
+  padding: 2.5rem;
+  width: 70%;
+  margin: 2rem auto;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.formulario h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  width: 100%;
+}
+
+.form-grupo {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.form-grupo label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-grupo input,
+.form-grupo select,
+.form-grupo textarea {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 3px solid rgb(169, 208, 15);
+  border-radius: 10px;
+  background-color: white;
+  transition: border-color 0.3s;
+}
+
+.form-grupo input:focus,
+.form-grupo select:focus,
+.form-grupo textarea:focus {
+  outline: none;
+  border-color: crimson;
+}
+
+.form-grupo textarea {
+  min-height: 100px;
+  resize: vertical;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.boton-submit {
+  background-color: rgb(201, 234, 12);
+  padding: 1rem 3rem;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.boton-submit:hover {
+  background-color: rgb(255, 255, 0);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.boton-volver {
+  background-color: crimson;
+  color: white;
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.boton-volver:hover {
+  background-color: rgb(180, 20, 50);
+  transform: translateY(-2px);
+}
+
+/* Resultados y tablas */
+#resultados {
+  background-color: white;
+  border: 0.5rem rgb(169, 208, 15) solid;
+  border-radius: 2rem;
+  padding: 2.5rem;
+  width: 85%;
+  margin: 2rem auto;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+#resultados h2 {
+  color: rgb(15, 208, 86);
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+  background-color: white;
+}
+
+table th {
+  background-color: rgb(15, 208, 86);
+  color: white;
+  padding: 1rem;
+  text-align: left;
+  font-size: 1.2rem;
+  border: 2px solid rgb(169, 208, 15);
+}
+
+table td {
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  color: #333;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+/* Badges de urgencia */
+.urgencia-alta {
+  background-color: #ff4444;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.urgencia-media {
+  background-color: #ffaa00;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.urgencia-baja {
+  background-color: #00aa00;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+/* Mensajes */
+.mensaje-exito {
+  background-color: #d4edda;
+  border: 3px solid #28a745;
+  color: #155724;
+  padding: 1.5rem;
+  border-radius: 15px;
+  margin: 2rem auto;
+  width: 70%;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.mensaje-error {
+  background-color: #f8d7da;
+  border: 3px solid #dc3545;
+  color: #721c24;
+  padding: 1.5rem;
+  border-radius: 15px;
+  margin: 2rem auto;
+  width: 70%;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Info adicional */
+.info-box {
+  background-color: rgb(15, 208, 86);
+  border: 0.3rem rgb(169, 208, 15) solid;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.contador-tareas {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: crimson;
+  margin: 1rem 0;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 3rem;
+    letter-spacing: 1rem;
+  }
+
+  #saludo {
+    width: 40vw;
+  }
+
+  .formulario,
+  #resultados {
+    width: 90%;
+  }
+
+  .botones-grupo {
+    flex-direction: column;
+  }
+
+  .boton-principal {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    height: 12vh;
+  }
+
+  #saludo {
+    width: 60vw;
+    font-size: 1rem;
+  }
+
+  .formulario,
+  #resultados {
+    width: 95%;
+    padding: 1.5rem;
+  }
+
+  table {
+    font-size: 0.9rem;
+  }
+
+  table th,
+  table td {
+    padding: 0.5rem;
+  }
+}

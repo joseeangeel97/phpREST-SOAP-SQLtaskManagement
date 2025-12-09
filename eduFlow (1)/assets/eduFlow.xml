@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<eduFlow>
+  <clases>
+    <clase id="1">
+      <asignatura>Programaci&#xF3;n Web</asignatura>
+      <profesor>Laura G&#xF3;mez</profesor>
+      <dia>Lunes</dia>
+      <hora>09:00</hora>
+      <aula>101</aula>
+    </clase>
+    <clase id="2">
+      <asignatura>Bases de Datos</asignatura>
+      <profesor>Carlos Ruiz</profesor>
+      <dia>Lunes</dia>
+      <hora>11:00</hora>
+      <aula>202</aula>
+    </clase>
+    <clase id="3">
+      <asignatura>Redes de Computadoras</asignatura>
+      <profesor>Ana Torres</profesor>
+      <dia>Martes</dia>
+      <hora>09:00</hora>
+      <aula>203</aula>
+    </clase>
+    <clase id="4">
+      <asignatura>Sistemas Operativos</asignatura>
+      <profesor>David Fern&#xE1;ndez</profesor>
+      <dia>Martes</dia>
+      <hora>11:00</hora>
+      <aula>105</aula>
+    </clase>
+    <clase id="5">
+      <asignatura>Inteligencia Artificial</asignatura>
+      <profesor>Mar&#xED;a L&#xF3;pez</profesor>
+      <dia>Mi&#xE9;rcoles</dia>
+      <hora>09:00</hora>
+      <aula>301</aula>
+    </clase>
+    <clase id="6">
+      <asignatura>Dise&#xF1;o de Interfaces</asignatura>
+      <profesor>Javier S&#xE1;nchez</profesor>
+      <dia>Mi&#xE9;rcoles</dia>
+      <hora>11:00</hora>
+      <aula>106</aula>
+    </clase>
+    <clase id="7">
+      <asignatura>Seguridad Inform&#xE1;tica</asignatura>
+      <profesor>Claudia P&#xE9;rez</profesor>
+      <dia>Jueves</dia>
+      <hora>09:00</hora>
+      <aula>204</aula>
+    </clase>
+    <clase id="8">
+      <asignatura>Ingenier&#xED;a de Software</asignatura>
+      <profesor>Fernando Mart&#xED;n</profesor>
+      <dia>Jueves</dia>
+      <hora>11:00</hora>
+      <aula>207</aula>
+    </clase>
+    <clase id="9">
+      <asignatura>Matem&#xE1;ticas Discretas</asignatura>
+      <profesor>Sof&#xED;a Ramos</profesor>
+      <dia>Viernes</dia>
+      <hora>09:00</hora>
+      <aula>102</aula>
+    </clase>
+    <clase id="10">
+      <asignatura>&#xC9;tica Profesional</asignatura>
+      <profesor>Luis Herrera</profesor>
+      <dia>Viernes</dia>
+      <hora>11:00</hora>
+      <aula>103</aula>
+    </clase>
+  </clases>
+  <tareas>
+    <tarea id="1">
+      <titulo>Proyecto PHP - Login</titulo>
+      <descripcion>Desarrollar un sistema de acceso con cookies</descripcion>
+      <fecha_entrega>2025-09-15</fecha_entrega>
+      <profesor>Laura G&#xF3;mez</profesor>
+      <imagen>fichero_1.png</imagen>
+      <urgente>si</urgente>
+      <asignatura>Programaci&#xF3;n Web</asignatura>
+    </tarea>
+    <tarea id="2">
+      <titulo>Modelo ER</titulo>
+      <descripcion>Crear un modelo entidad-relaci&#xF3;n de una tienda online</descripcion>
+      <fecha_entrega>2025-09-20</fecha_entrega>
+      <profesor>Carlos Ruiz</profesor>
+      <imagen>fichero_2.png</imagen>
+      <urgente>no</urgente>
+      <asignatura>Bases de Datos</asignatura>
+    </tarea>
+    <tarea id="3">
+      <titulo>Pr&#xE1;ctica de enrutamiento</titulo>
+      <descripcion>Configurar protocolos de enrutamiento din&#xE1;mico</descripcion>
+      <fecha_entrega>2025-09-18</fecha_entrega>
+      <profesor>Ana Torres</profesor>
+      <imagen>fichero_3.png</imagen>
+      <urgente>si</urgente>
+      <asignatura>Redes de Computadoras</asignatura>
+    </tarea>
+    <tarea id="4">
+      <titulo>Gesti&#xF3;n de procesos</titulo>
+      <descripcion>Elaborar un informe sobre planificaci&#xF3;n de CPU</descripcion>
+      <fecha_entrega>2025-09-25</fecha_entrega>
+      <profesor>David Fern&#xE1;ndez</profesor>
+      <imagen>fichero_4.png</imagen>
+      <urgente>no</urgente>
+      <asignatura>Sistemas Operativos</asignatura>
+    </tarea>
+    <tarea id="5">
+      <titulo>Algoritmo de b&#xFA;squeda A*</titulo>
+      <descripcion>Implementar un algoritmo A* en Python</descripcion>
+      <fecha_entrega>2025-09-16</fecha_entrega>
+      <profesor>Mar&#xED;a L&#xF3;pez</profesor>
+      <imagen>fichero_5.png</imagen>
+      <urgente>si</urgente>
+      <asignatura>Inteligencia Artificial</asignatura>
+    </tarea>
+    <tarea id="6">
+      <titulo>Wireframe de aplicaci&#xF3;n</titulo>
+      <descripcion>Dise&#xF1;ar un prototipo navegable de una app m&#xF3;vil</descripcion>
+      <fecha_entrega>2025-09-28</fecha_entrega>
+      <profesor>Javier S&#xE1;nchez</profesor>
+      <imagen>fichero_6.png</imagen>
+      <urgente>no</urgente>
+      <asignatura>Dise&#xF1;o de Interfaces</asignatura>
+    </tarea>
+    <tarea id="7">
+      <titulo>Auditor&#xED;a de seguridad</titulo>
+      <descripcion>Analizar vulnerabilidades en una red corporativa</descripcion>
+      <fecha_entrega>2025-09-17</fecha_entrega>
+      <profesor>Claudia P&#xE9;rez</profesor>
+      <imagen>fichero_7.png</imagen>
+      <urgente>si</urgente>
+      <asignatura>Seguridad Inform&#xE1;tica</asignatura>
+    </tarea>
+    <tarea id="8">
+      <titulo>Diagrama de clases UML</titulo>
+      <descripcion>Modelar el sistema de gesti&#xF3;n de biblioteca</descripcion>
+      <fecha_entrega>2025-09-26</fecha_entrega>
+      <profesor>Fernando Mart&#xED;n</profesor>
+      <imagen>fichero_8.png</imagen>
+      <urgente>no</urgente>
+      <asignatura>Ingenier&#xED;a de Software</asignatura>
+    </tarea>
+    <tarea id="9">
+      <titulo>Problemas de grafos</titulo>
+      <descripcion>Resolver ejercicios de teor&#xED;a de grafos</descripcion>
+      <fecha_entrega>2025-09-19</fecha_entrega>
+      <profesor>Sof&#xED;a Ramos</profesor>
+      <imagen>fichero_9.png</imagen>
+      <urgente>si</urgente>
+      <asignatura>Matem&#xE1;ticas Discretas</asignatura>
+    </tarea>
+    <tarea id="10">
+      <titulo>Ensayo sobre &#xE9;tica digital</titulo>
+      <descripcion>Redactar un ensayo sobre el impacto de la IA en la sociedad</descripcion>
+      <fecha_entrega>2025-09-30</fecha_entrega>
+      <profesor>Luis Herrera</profesor>
+      <imagen>fichero_10.png</imagen>
+      <urgente>no</urgente>
+      <asignatura>&#xC9;tica Profesional</asignatura>
+    </tarea>
+    <tarea id="11">
+      <titulo>Proyecto 2</titulo>
+      <descripcion>Red neuronal extralimitada</descripcion>
+      <fecha_entrega>2025-11-30</fecha_entrega>
+      <asignatura>Ingener&#xED;a</asignatura>
+      <urgente>media</urgente>
+      <profesor>Laura Gomez</profesor>
+      <archivoAsociado>ejercicio.zip</archivoAsociado>
+    </tarea>
+    <tarea id="12">
+      <titulo>Proyecto 3</titulo>
+      <descripcion>jwqkfnkq</descripcion>
+      <fecha_entrega>2025-12-24</fecha_entrega>
+      <asignatura>Arte y fotografia</asignatura>
+      <urgente>baja</urgente>
+      <profesor>Laura Gomez</profesor>
+      <imagen>ejercicio.zip</imagen>
+    </tarea>
+  </tareas>
+</eduFlow>
